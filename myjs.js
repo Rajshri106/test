@@ -3,7 +3,7 @@ var y;
 function start(){
     y= setInterval(run , 100);
    
-    function run(){
+    function run(){ 
        if(m==1200){
            clearInterval(y);
            m=0;
